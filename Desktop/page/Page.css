@@ -121,18 +121,19 @@ main{
 
 @media (min-width: 900px) {
   body {
-      min-height: 120vh;
+      max-height: 120vh;
       background-image: url(bg-intro-desktop.png);
   }
   
   main{
     display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 10px;
         align-items: center;
         justify-items: center;
         max-height: 120vh;
         text-align: left;
+        position:absolute;
       
   }
   .head-div{
